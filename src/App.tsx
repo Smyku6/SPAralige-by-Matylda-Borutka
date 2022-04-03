@@ -1,7 +1,7 @@
 function App() {
 
   function jajo(): string {
-    return "dfokls";
+    return 'dfokls';
   }
 
   return (
