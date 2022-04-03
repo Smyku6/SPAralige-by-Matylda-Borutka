@@ -1,0 +1,41 @@
+[debug] [2022-04-03T15:56:27.226Z] ----------------------------------------------------------------------
+[debug] [2022-04-03T15:56:27.227Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-04-03T15:56:27.228Z] CLI Version:   10.5.0
+[debug] [2022-04-03T15:56:27.228Z] Platform:      win32
+[debug] [2022-04-03T15:56:27.228Z] Node Version:  v16.14.0
+[debug] [2022-04-03T15:56:27.228Z] Time:          Sun Apr 03 2022 17:56:27 GMT+0200 (czas środkowoeuropejski letni)
+[debug] [2022-04-03T15:56:27.228Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-03T15:56:27.267Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-03T15:56:27.267Z] > authorizing via signed-in user (smyku6@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-04-03T15:56:27.287Z] [hub] writing locator at C:\Users\Adam\AppData\Local\Temp\hub-sparalige-hosting-test-2.json
+[debug] [2022-04-03T15:56:27.294Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/sparalige-hosting-test-2/sites 
+[debug] [2022-04-03T15:56:28.429Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/sparalige-hosting-test-2/sites 200
+[debug] [2022-04-03T15:56:28.429Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/sparalige-hosting-test-2/sites {"sites":[{"name":"projects/610932877883/sites/sparalige-hosting-test-2","defaultUrl":"https://sparalige-hosting-test-2.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-04-03T15:56:28.430Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sparalige-hosting-test-2/webApps/-/config [none]
+[debug] [2022-04-03T15:56:29.107Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sparalige-hosting-test-2/webApps/-/config 200
+[debug] [2022-04-03T15:56:29.108Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sparalige-hosting-test-2/webApps/-/config {"projectId":"sparalige-hosting-test-2","storageBucket":"sparalige-hosting-test-2.appspot.com","apiKey":"AIzaSyDcto7ecvPP69uqDIqvbhCgwnRPq8n1EqI","authDomain":"sparalige-hosting-test-2.firebaseapp.com","messagingSenderId":"610932877883"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [03/Apr/2022:15:56:32 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [03/Apr/2022:15:56:32 +0000] \"GET / HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [03/Apr/2022:15:56:32 +0000] "GET /static/js/main.ad44a601.js HTTP/1.1" 200 143258 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [03/Apr/2022:15:56:32 +0000] \"GET /static/js/main.ad44a601.js HTTP/1.1\" 200 143258 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [03/Apr/2022:15:56:32 +0000] "GET /static/css/main.e6c13ad2.css HTTP/1.1" 200 337 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [03/Apr/2022:15:56:32 +0000] \"GET /static/css/main.e6c13ad2.css HTTP/1.1\" 200 337 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [03/Apr/2022:15:56:32 +0000] "GET /favicon.ico HTTP/1.1" 200 644 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [03/Apr/2022:15:56:32 +0000] \"GET /favicon.ico HTTP/1.1\" 200 644 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [03/Apr/2022:15:56:33 +0000] "GET /manifest.json HTTP/1.1" 200 644 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [03/Apr/2022:15:56:33 +0000] \"GET /manifest.json HTTP/1.1\" 200 644 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36\""}}
